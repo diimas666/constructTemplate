@@ -7,3 +7,50 @@
 	width: 940px;
 	margin: 0 auto;
 }
+.wrapper_header {
+	height: 769px;
+	/* height: 100vh; */
+	background: url('bg/bg.png') center center/cover no-repeat;
+}
+.logo {
+	width: 102px;
+	height: 23px;
+	margin: 0 auto;
+	padding-top: 41px;
+}
+.h1 {
+	display: flex;
+	justify-content: center;
+	padding: 317px 0 21px 0;
+	white-space: nowrap;
+	color: #FFF;
+	text-align: center;
+	font-family: BebasNeueBold;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 5.709px;
+}
+.h4 {
+	color: #FFF;
+text-align: center;
+font-family: OpenSans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 221px;
+}
+.p {
+	color: #FFF;
+	text-align: center;
+	font-family: OpenSans;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 3.7px;
+}
+
+/* //navbar */
