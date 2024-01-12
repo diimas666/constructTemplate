@@ -54,3 +54,29 @@ padding-bottom: 221px;
 }
 
 /* //navbar */
+.header {
+	display: flex;
+	height: 65px;
+	flex-shrink: 0;
+	border: 1px solid #E6E6E6;
+	background: #FFF;
+}
+.header .container {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	padding: 22px 0 23px 0;	
+}
+.items {
+	display: flex;
+	padding: 25px 0 0 450px;
+	
+	
+}
+.items a {
+	padding-right: 48px;
+	
+}
+
+/* our story */
