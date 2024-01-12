@@ -80,3 +80,230 @@ padding-bottom: 221px;
 }
 
 /* our story */
+
+.h2_our-story {
+
+	display: block;
+	white-space: nowrap;
+	padding-top: 57px;
+	color: #48555B;
+	text-align: center;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.306px;
+}
+.line {
+	display: block;
+	padding-bottom: 70px;
+	margin: 0 auto;
+	width: 50px;
+	height: 2px;
+	flex-shrink: 0;
+	stroke-width: 2px;
+	stroke: #00A4E5;
+}
+
+.wrapper_our-story {
+	display: flex;
+
+	width: 941px;
+	height: 344px;
+	flex-shrink: 0;
+}
+
+.block_our-story {
+	display: flex;
+	padding-left: 483px;
+}
+
+.item_left-bold {
+	/* margin-top: 60px; */
+	width: 410px;
+	height: 90px;
+	flex-direction: column;
+	flex-shrink: 0;
+	color: #48555B;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.188px;
+}
+.item_left-bold span {
+	display: inline;
+	color: #16ACE8;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 4px;
+}
+.item-descr{
+	width: 405.076px;
+	height: 115px;
+	padding-top: 46px;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	color: #48555B;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px; /* 176.923% */
+	letter-spacing: 0.188px;
+}
+
+.item-right {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 167px;
+	/* padding-left: 120px; */
+}
+.text_img {
+	width: 140px;
+	height: 224px;
+	padding: 23px 70px 219px 23px;
+	white-space: wrap;
+	margin-left: 20px;
+	color: #FFF;
+	font-family: OpenSans;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 29px; /* 120.833% */
+	letter-spacing: 0.188px;
+
+}
+.text-img1 {
+	background: url('Bitmap.png')center center /cover no-repeat;
+}
+.text-img2 {
+	background: url('/Bitmap-2.png')center center /cover no-repeat;
+}
+.text-img3 {
+	background: url('Bitmap-3.png')center center /cover no-repeat;
+}
+/* capabilities capabilities  services*/
+
+.services {
+	display: flex;
+	margin: 0 auto;
+	width: 940px;
+	height: 100px;
+	flex-shrink: 0;
+}
+.promo {
+	/* display: flex; */
+}
+
+.promo_title {
+	display: flex;
+	width: 1000px;
+	/* width: 100%; */
+}
+.logo_text {
+	width: 198px;
+	white-space: nowrap;
+	height: 25px;
+	color: #48555B;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.306px;
+}
+.promo_text {
+	display: block;
+	padding-left: 100px;
+min-width: 405px;
+height: 38px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #48555B;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 172.727% */
+letter-spacing: 0.2px;
+}
+.btn {
+	display: inline	;
+	margin-left: 147px;
+	padding-top: 8px;
+	text-decoration: none;
+	width: 150px;
+	
+	height: 40px;
+	flex-shrink: 0;
+	background: #00A4E5;
+		color: #FFF;
+	text-align: center;
+	font-family: OpenSans;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.5px;
+}
+.promo_title .line  svg {
+	width: 50px;
+	height: 2px;
+	margin-top: 29px;
+	margin-left: -196px;
+}
+
+/* другой блок  */
+
+.services_block {
+	margin-left: 94px;
+	padding-bottom: 115px;
+}
+.services_block-items {
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+}
+.services_block-item {
+	margin-left: 28px;
+	margin-right: 28px;
+	width: 330px;
+	height: 330px;
+	flex-shrink: 0;
+	border: 1px solid #E6E6E6;
+	background: #FFF;
+}
+.services_block-item img {
+	padding: 38px 0 25px 35px;
+}
+.srvices_h2 {
+	color: #48555B;
+	padding: 0 0 23px 35px;
+	font-family: OpenSans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.427px;
+}
+.services_text-p {
+	width: 250px;
+	min-height: 92px;
+	padding-left: 35px;
+	color: #48555B;
+	font-family: OpenSans;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px; /* 176.923% */
+	letter-spacing: 0.188px;
+}
+/* footer_wrapper */
