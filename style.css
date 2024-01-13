@@ -376,3 +376,170 @@ letter-spacing: 0.846px;
 	
 }
 /* footer */
+
+
+.footer {
+height: 240px;
+padding-left: 150px;
+background: #141A20;
+}
+
+.wrapper_footer {
+	display: flex;
+}
+
+
+.footer-text {
+	color: #FFF;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+width: 250px;
+height: 76px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+}
+.a_footer{
+	display: inline-block;
+	padding: 42px 0 19px 0;
+
+color: #FFF;
+text-align: center;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.846px;
+}
+.logo_footer {
+	padding-bottom: 19px;
+}
+
+/* link footer */
+
+
+.links {
+	margin-left: 71px;
+	padding-top: 35px;
+	color: #FFF;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 227.273% */
+letter-spacing: 0.846px;
+}
+.link{
+	padding-bottom: 12px;
+	color: #FFF;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.846px;
+list-style-type: none;
+cursor: pointer;
+}
+
+/* fag */
+
+.fag_footer {
+	
+	margin-left: 71px;
+	padding-top: 42px;
+	
+}
+.fags {
+	list-style-type: none;
+}
+.fag  a {
+	padding-bottom: 10px;
+	color: #FFF;
+	font-family: OpenSans;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 25px; /* 227.273% */
+	letter-spacing: 0.846px;
+	list-style-type: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* blog */
+
+.blog-footer {
+	margin-left: 71px;
+	padding-top: 42px;
+}
+.blog-list {
+	list-style-type: none;
+	cursor: pointer;
+}
+.blog a {
+color: #FFF;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 227.273% */
+letter-spacing: 0.846px;
+text-decoration: none;
+
+}
+/* contact */
+
+
+.contact{
+	margin-left: 68px;
+	padding-top: 42px;
+}
+.contact_a {
+text-decoration: none;
+display: block;
+padding-bottom: 10px;
+color: #FFF;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.846px;
+}
+
+
+.contact-text {
+	color: #FFF;
+font-family: OpenSans;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 145.455% */
+letter-spacing: 0.846px;
+}
+
+/* copy */
+
+.copy {
+	height: 60px;
+	background: #171819;
+	flex-shrink: 0;
+}
+
+.text-copy {
+	display: flex;
+	justify-content:center;
+	padding-top: 22px;	
+	color: #FFF;
+	font-family: OpenSans;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.846px;
+}
